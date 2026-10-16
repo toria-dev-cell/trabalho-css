@@ -1,0 +1,11 @@
+.menu-principal{
+    background-color:#333333;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+li{
+    text-decoration: none;
+    color:ghostwhite;
+    display: inline-block;
+    margin-right: 20px;
+}
