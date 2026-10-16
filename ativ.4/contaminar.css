@@ -1,0 +1,48 @@
+/* Container principal (borda cinza externa) */
+.container {
+    width: 100%;
+    max-width: 600px;/*define o limite máximo de largura que um elemento pode atingir.*/
+    border: 4px solid #e0e0e0;
+    box-sizing: border-box;/*serve para mudar a forma como o navegador calcula o tamanho total de um elemento, impedindo que espaçamentos internos (padding) e bordas (border) aumentem a largura ou altura que você definiu.*/
+}
+.linha {
+    display: flex;/* Alinha os blocos internos lado a lado */
+    justify-content: space-around; /* Cria o espaçamento correto nas laterais e no centro */
+    align-items: center;/* Centraliza os blocos verticalmente */
+    padding: 15px 0;
+    height: 80px;
+}
+.linha-verde {
+    background-color: #009a44;
+}
+.linha-amarela { 
+    background-color: #ffde00;
+}
+.linha-azul { 
+    background-color: #0033a0;
+}
+
+.bloco {
+    width: 140px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold; /*Deixa a letra em negrito*/
+    font-size: 12px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+}
+.bloco-azul { 
+    background-color: #0033a0;
+}
+.bloco-amarelo { 
+    background-color: #ffde00; 
+    color: #ffffff; 
+}
+.bloco-verde { 
+    background-color: #009a44;
+}

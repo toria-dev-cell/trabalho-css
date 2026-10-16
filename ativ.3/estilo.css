@@ -1,0 +1,29 @@
+div {
+    position: fixed;/*para todasas div ficarem fixadas*/
+    padding: 15px; 
+}
+.esqcima {
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+}
+
+.dircima {
+    top: 0;
+    right: 0;
+    background-color: blue;
+    color: white;
+}
+
+.esqbaixo {
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    color: white;
+}
+.dirbaixo {
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+}
