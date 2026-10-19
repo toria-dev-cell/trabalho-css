@@ -1,0 +1,78 @@
+.bandeira-vertical {
+    display: flex; /* Alinha os filhos em linha */
+    width: 300px;  /* Defina um tamanho proporcional */
+    height: 200px;
+}
+.faixa {
+    width: 33.33%; /* Conforme a orientação técnica */
+    height: 100%;
+}
+.verde { background-color: #009246; }
+.branca { background-color: #ffffff; }
+.vermelha { background-color: #ce2b37; }
+
+.bandeira-horizontal {
+    width: 300px;
+    height: 180px;
+}
+.faixa-h {
+    width: 100%;
+    height: 33.33%; /* Alturas idênticas para as 3 faixas */
+}
+.preta { 
+    background-color: #000000; 
+}
+.vermelha-al {
+    background-color: #dd0000; 
+}
+.amarela {
+    background-color: #ffce00; 
+}
+.bandeira-nordica {
+    position: relative; /* Base para o posicionamento dos filhos */
+    width: 320px;
+    height: 200px;
+    background-color: #006aa7; /* Fundo azul da Suécia */
+}
+.cruz-horizontal {
+    position: absolute;
+    left: 0;
+    top: 40%; /* Ajuste a altura da faixa horizontal */
+    width: 100%;
+    height: 20%;
+    background-color: #fecc00;
+}
+.cruz-vertical {
+    position: absolute;
+    left: 30%; /* Descentralizado para a esquerda (estilo nórdico) */
+    top: 0;
+    width: 12.5%;
+    height: 100%;
+    background-color: #fecc00;
+}
+.bandeira-brasil {
+    position: relative;
+    width: 324px;
+    height: 228px;
+    background-color: #009b3a; /* Verde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que as pontas do losango não passem da borda */
+}
+.losango {
+    width: 160px;
+    height: 160px;
+    background-color: #fedf00; /* Amarelo */
+    transform: rotate(45deg); /* Rotaciona o quadrado para virar um losango */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo {
+    width: 85px;
+    height: 85px;
+    background-color: #002776; /* Azul */
+    border-radius: 50%; /* Transforma o quadrado em círculo */
+    transform: rotate(-45deg); /* Desfaz a rotação apenas para o círculo interno */
+}
