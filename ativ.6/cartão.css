@@ -1,0 +1,16 @@
+
+.cartao {
+    width: 350px;                  
+    background-color: #e3f2fd;     
+    border: 2px solid black;       
+    padding: 20px;
+    margin-top: 30px;              
+    font-family: Arial, sans-serif; 
+    text-align: center;            
+    box-sizing: border-box;/*garante que o padding não altere a largura total */       
+}
+
+.cartao img {
+    border-radius: 50%;
+    margin: 10px 0;/*• não precisamos empurrar a imagem para os lados. pois já está no centro*/
+}
