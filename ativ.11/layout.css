@@ -1,0 +1,37 @@
+body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px;
+        background-color: #f9f9f9;
+}
+.layout-container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px; /* Espaçamento entre as linhas do layout */
+}
+
+.secao {
+        border: 2px solid #333030;
+        padding: 20px; /* Espaçamento interno adequado */
+        text-align: center;
+        font-weight: bold;
+}
+.topo {
+        background-color: #ffadad;
+}
+.meio{
+        display: flex;
+        gap: 15px; /* Espaçamento entre o menu e o conteúdo */
+}
+.menu {
+        background-color: #ffd6a5;
+        flex: 1; /* O menu ocupa uma parte menor */
+}
+.conteudo {
+        background-color: #caffbf;
+        flex: 3; /* O conteúdo ocupa uma parte maior */
+}
+.rodape {
+        background-color: #9bf6ff;
+}
