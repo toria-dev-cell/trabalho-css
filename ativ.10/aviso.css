@@ -1,0 +1,13 @@
+.caixa-aviso {
+    width: 500px;
+    background-color: #fffae6;
+    border: 3px solid orange;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Verdana, sans-serif;
+}
+.caixa-aviso h2 {
+    margin-top: 0;
+    color: #d9381e;
+}
+
