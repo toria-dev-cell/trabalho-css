@@ -10,7 +10,7 @@
     box-sizing: border-box;/*garante que o padding não altere a largura total */       
 }
 
-.cartao img {
+.cartao img {/*Só não coloquei a imagem porque no celular nãoconsigo ver, ai tive que pesquisar a promoção mais o menos*/
     border-radius: 50%;
     margin: 10px 0;/*• não precisamos empurrar a imagem para os lados. pois já está no centro*/
 }

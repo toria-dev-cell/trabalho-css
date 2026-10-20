@@ -1,87 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bandeiras</title>
-    <link rel="stylesheet" href="bandeira.css">
-</head>
-<body>
-    <div>
-    <div class="bandeira-vertical">
-        <div class="faixa verde"></div>
-        <div class="faixa branca"></div>
-        <div class="faixa vermelha"></div>
-    </div>
-    <div class="bandeira-horizontal">
-        <div class="faixa-h preta"></div>
-        <div class="faixa-h vermelha-al"></div>
-        <div class="faixa-h amarela"></div>
-    </div>
-    <div class="bandeira-nordica">
-        <div class="cruz-horizontal"></div>
-        <div class="cruz-vertical"></div>
-    </div>
-    <div class="bandeira-nordica">
-        <div class="cruz-horizontal"></div>
-        <div class="cruz-vertical"></div>
-    </div>
-    <div class="bandeira-brasil">
-        <div class="losango">
-            <div class="circulo"></div>
-        </div>
-    </div>
-
-    <!DOCTYPE html>
-    <html lang="pt-BR">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Bandeiras com Divs</title>
-                    <link rel="stylesheet" href="bandeira.css">
-                    </head>
-                    <body>
+        <title>Criação de Bandeiras com Elementos Divs</title>
+        <link rel="stylesheet" href="bandeira.css">
+    </head>
+</html>
+        <div class="container-bandeira">
+            <div class="bandeira flex-vertical">
+            <div class="coluna ita-verde"></div>
+            <div class="coluna ita-branco"></div>
+            <div class="coluna ita-vermelho"></div>
+        </div>
+        <strong>Itália</strong>
+    </div>
+    <div class="container-bandeira">
+        <div class="bandeira flex-vertical">
+            <div class="coluna bel-preto"></div>
+            <div class="coluna bel-amarelo"></div>
+            <div class="coluna bel-vermelho"></div>
+        </div>
+        <strong>Bélgica</strong>
+    </div>
 
-                        <!-- 1. Listras Verticais (Itália) -->
-                            <h2>Itália (Listras Verticais)</h2>
-                                <div class="bandeira-vertical">
-                                        <div class="faixa verde"></div>
-                                                <div class="faixa branca"></div>
-                                                        <div class="faixa vermelha"></div>
-                                                            </div>
+    <div class="container-bandeira">
+        <div class="bandeira flex-horizontal">
+            <div class="faixa-2 pol-branco"></div>
+            <div class="faixa-2 pol-vermelho"></div>
+        </div>
+        <strong>Polônia</strong>
+    </div>
+    <div class="container-bandeira">
+        <div class="bandeira flex-horizontal">
+            <div class="faixa-3 ale-preto"></div>
+            <div class="faixa-3 ale-vermelho"></div>
+            <div class="faixa-3 ale-amarelo"></div>
+        </div>
+        <strong>Alemanha</strong>
+    </div>
 
-                                                                <!-- 2. Listras Horizontais (Alemanha) -->
-                                                                    <h2>Alemanha (Listras Horizontais)</h2>
-                                                                        <div class="bandeira-horizontal">
-                                                                                <div class="faixa-h preta"></div>
-                                                                                        <div class="faixa-h vermelha-al"></div>
-                                                                                                <div class="faixa-h amarela"></div>
-                                                                                                    </div>
+    <div class="container-bandeira">
+        <div class="bandeira inglaterra">
+            <div class="cruz-v"></div>
+            <div class="cruz-h"></div>
+        </div>
+        <strong>Inglaterra</strong>
+    </div>
 
-                                                                                                        <!-- 3. Cruz de Formato Nórdico (Suécia) -->
-                                                                                                            <h2>Suécia (Formato Nórdico)</h2>
-                                                                                                                <div class="bandeira-nordica suecia">
-                                                                                                                        <div class="cruz-horizontal"></div>
-                                                                                                                                <div class="cruz-vertical"></div>
-                                                                                                                                    </div>
-
-                                                                                                                                        <!-- 4. Cruz de São Jorge (Inglaterra) -->
-                                                                                                                                            <h2>Inglaterra (São Jorge)</h2>
-                                                                                                                                                <div class="bandeira-nordica inglaterra">
-                                                                                                                                                        <div class="cruz-horizontal"></div>
-                                                                                                                                                                <div class="cruz-vertical"></div>
-                                                                                                                                                                    </div>
-
-                                                                                                                                                                        <!-- 5. Formas Geométricas Acopladas (Brasil) -->
-                                                                                                                                                                            <h2>Brasil (Formas Acopladas)</h2>
-                                                                                                                                                                                <div class="bandeira-brasil">
-                                                                                                                                                                                        <div class="losango"></div>
-                                                                                                                                                                                                <div class="circulo"></div>
-                                                                                                                                                                                                    </div>
-
-                                                                                                                                                                                                    </body>
-                                                                                                                                                                                                    </html>
-                                                                                                                                                                                                    
-
+    <div class="container-bandeira">
+        <div class="bandeira suecia">
+            <div class="cruz-v"></div>
+            <div class="cruz-h"></div>
+        </div>
+        <strong>Suécia</strong>
+    </div>
+    <div class="container-bandeira">
+        <div class="bandeira brasil">
+            <div class="losango"></div>
+            <div class="circulo"></div>
+        </div>
+        <strong>Brasil</strong>
+    </div>
 </body>
 </html>
